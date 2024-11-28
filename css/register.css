@@ -1,0 +1,288 @@
+@media  screen and (max-width: 400px) {
+
+    body{
+        margin: 0;
+        padding: 0;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+
+    .header{
+        background-color: #F7F7F7;
+        height: 10vh;
+        width: 100%;
+        display: flex;
+        align-items: end;
+        margin-bottom: 3rem;
+    }   
+
+    .header img{
+        align-self: center; 
+        position: relative;
+        top: 4.5rem;
+    }
+
+    .container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        width: 100%;
+        flex-direction: column;
+        margin-top: -8rem;
+    }
+
+    .container h1{
+        font-size: 35px;
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+        font-weight: 700;
+        color: #756F6F;
+    }
+
+    .container form{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        background-color: #FFFFFF;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .container form label{
+        font-size: 1.2rem;
+        margin-bottom: 1rem;
+        font-weight: 700;
+        color: #474545;
+        margin-right: 45%;
+    }
+
+    .container form input{
+        border: 1px solid #000000;
+        border-radius: 5px;
+        padding: 1rem;
+        margin-bottom: 2rem; 
+        border-radius: 0.8rem;  
+        margin-top: -0.5rem;
+        width: 60%;
+    }
+
+    .container form input::placeholder{
+        font-size: 1rem;
+        font-weight: 700;
+    }
+
+    .container form input:focus{
+        outline: none;
+    }
+
+    .container form button{
+        border: none;
+        background-color: #3EC255;
+        color: #FFFFFF;
+        font-size: 1rem;
+        font-weight: 700;
+        padding: 1rem;
+        border-radius: 1.2rem;
+        width: 8rem;
+        height: 3rem;
+        position: relative;
+        top: 4%;
+
+    }
+
+    .container form button:hover{
+        background-color: #2C9B47;
+    }       
+    
+}
+
+@media  screen and (min-width: 400px) {
+    body{
+        margin: 0;
+        padding: 0;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+
+    .header{
+        background-color: #F7F7F7;
+        height: 8vh;
+        width: 100%;
+        display: flex;
+        align-items: end;
+    }   
+
+    .header img{
+        align-self: center; 
+        position: relative;
+        top: 4.5rem;
+    }
+
+    .container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        width: 100%;
+        flex-direction: column;
+        margin-top: -8rem;
+    }
+
+    .container h1{
+        font-size: 35px;
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+        font-weight: 700;
+        color: #756F6F;
+    }
+
+    .container form{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        background-color: #FFFFFF;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .container form label{
+        font-size: 1.2rem;
+        margin-bottom: 1rem;
+        font-weight: 700;
+        color: #474545;
+        margin-right: 45%;
+    }
+
+    .container form input{
+        border: 1px solid #000000;
+        border-radius: 5px;
+        padding: 1rem;
+        margin-bottom: 2rem; 
+        border-radius: 0.8rem;  
+        margin-top: -0.5rem;
+        width: 60%;
+    }
+
+    .container form input::placeholder{
+        font-size: 1rem;
+        font-weight: 700;
+    }
+
+    .container form input:focus{
+        outline: none;
+    }
+
+    .container form button{
+        border: none;
+        background-color: #3EC255;
+        color: #FFFFFF;
+        font-size: 1rem;
+        font-weight: 700;
+        padding: 1rem;
+        border-radius: 1.2rem;
+        width: 8rem;
+        height: 3rem;
+        position: relative;
+        top: 6rem;
+
+    }
+
+    .container form button:hover{
+        background-color: #2C9B47;
+    }       
+    
+}
+
+@media screen and (min-width: 780px) {
+    body{
+        margin: 0;
+        padding: 0;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+
+    .header{
+        background-color: #F7F7F7;
+        height: 10vh;
+        width: 100%;
+        display: flex;
+        align-items: end;
+    }   
+
+    .header img{
+        align-self: center; 
+        position: relative;
+        top: 4.5rem;
+    }
+
+    .container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        width: 100%;
+        flex-direction: column;
+        margin-top: -8rem;
+    }
+
+    .container h1{
+        font-size: 35px;
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+        font-weight: 700;
+        color: #756F6F;
+    }
+
+    .container form{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        background-color: #FFFFFF;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .container form label{
+        font-size: 1.2rem;
+        margin-bottom: 1rem;
+        font-weight: 700;
+        color: #474545;
+        margin-right: 25%;
+    }
+
+    .container form input{
+        border: 1px solid #000000;
+        border-radius: 5px;
+        padding: 1rem;
+        margin-bottom: 2rem; 
+        border-radius: 0.8rem;  
+        margin-top: -0.5rem;
+        width: 30%;
+    }
+
+    .container form input::placeholder{
+        font-size: 1rem;
+        font-weight: 700;
+    }
+
+    .container form input:focus{
+        outline: none;
+    }
+
+    .container form button{
+        border: none;
+        background-color: #3EC255;
+        color: #FFFFFF;
+        font-size: 1rem;
+        font-weight: 700;
+        padding: 1rem;
+        border-radius: 1.2rem;
+        width: 8rem;
+        height: 3rem;
+        position: relative;
+        top: 6rem;
+
+    }
+
+    .container form button:hover{
+        background-color: #2C9B47;
+    }
+}
