@@ -94,6 +94,13 @@
         background-color: #2C9B47;
     }       
     
+    
+    button:hover{
+        cursor: pointer;
+        opacity: 0.8;
+    }
+
+    
 }
 
 @media  screen and (min-width: 400px) {
@@ -190,6 +197,13 @@
     .container form button:hover{
         background-color: #2C9B47;
     }       
+
+    
+    button:hover{
+        cursor: pointer;
+        opacity: 0.8;
+    }
+
     
 }
 
@@ -287,4 +301,11 @@
     .container form button:hover{
         background-color: #2C9B47;
     }
+
+    
+    button:hover{
+        cursor: pointer;
+        opacity: 0.8;
+    }
+
 }
