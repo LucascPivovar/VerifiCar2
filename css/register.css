@@ -12,7 +12,7 @@
         width: 100%;
         display: flex;
         align-items: end;
-        margin-bottom: 3rem;
+        margin-bottom: 4rem;
     }   
 
     .header img{
@@ -109,6 +109,7 @@
         width: 100%;
         display: flex;
         align-items: end;
+        margin-bottom: 3rem;
     }   
 
     .header img{
@@ -182,7 +183,7 @@
         width: 8rem;
         height: 3rem;
         position: relative;
-        top: 6rem;
+        top: 2rem;
 
     }
 
@@ -192,7 +193,7 @@
     
 }
 
-@media screen and (min-width: 780px) {
+@media screen and (min-width: 1200px) {
     body{
         margin: 0;
         padding: 0;
@@ -205,6 +206,7 @@
         width: 100%;
         display: flex;
         align-items: end;
+        margin-bottom: 1rem;
     }   
 
     .header img{
@@ -278,7 +280,7 @@
         width: 8rem;
         height: 3rem;
         position: relative;
-        top: 6rem;
+        top: 2rem;
 
     }
 
